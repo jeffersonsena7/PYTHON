@@ -25,7 +25,7 @@ if pagamento == 1:
     print('O valo do produto é R${}, com desconto de 10% avista fica R${}'.format(produto, dinheiro))
 elif pagamento == 2:
     print('O valor do produto é R${}, com desconto de 5% direto no cartão fica R${}'. format(produto, cartao1))
-elif: pagamento == 3:
-    print('O valo do produto é R${}, dividido em 2 parcelas de R${}'.format(produto, cartao2)
+elif pagamento == 3:
+    print('O valo do produto é R${}, dividido em 2 parcelas de R${}'.format(produto, cartao2))
 else:
-    print('O valo do produto é R${}, dividido em 3x ou mais parcela fica {}'.format(produto, cartao3)
+    print('O valo do produto é R${}, dividido em 3x ou mais parcela fica {}'.format(produto, cartao3))
