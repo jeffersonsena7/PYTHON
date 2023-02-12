@@ -3,7 +3,9 @@
 soma = 0
 cont = 0
 
-p1 = int(input("Primeiro termo: "))
-r = int(input("razão"))
-for c in range(p1, 20, r):
-    print('{}'.format(c), end=' -> ')
+primeiro = int(input("Primeiro termo: "))
+razao = int(input("razão: "))
+decimo = primeiro + (10 - 1) * razao
+for c in range(primeiro, decimo + razao, razao):
+    print('{}'.format(c), end='-> ')
+print('fim')
