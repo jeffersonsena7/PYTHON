@@ -7,6 +7,7 @@ while num > 1:
     num = num - 1
     cont = num + 1
     fatorial = num * cont
-    print(num)
+    totalfatorial = cont * fatorial
+    print(fatorial)
 
 print('fim')
