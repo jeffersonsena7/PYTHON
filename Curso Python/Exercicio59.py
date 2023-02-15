@@ -10,7 +10,7 @@ while opcao != 5:
     [3] Maior
     [4] Novos números
     [5] Sair''')
-    opcao = int(input('Qual é a sua opção'))
+    opcao = int(input('>>>>>>>>>Qual é a sua opção? '))
     if opcao == 1:
         somar = valor1 + valor2
         print('\nA soma dos valores é : {}\n'.format(somar))
@@ -33,6 +33,7 @@ while opcao != 5:
         sair = 5
     else:
         print('Opção inválida. Tente novamente')
+    print('-=' * 10)
 print('FIM')
 
 
