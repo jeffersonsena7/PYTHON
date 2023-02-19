@@ -1,4 +1,4 @@
-# Escreva um programa que leia um número n inteiro qualquer e mostre na tela os n primeiros
+# Escreva um programa que leia um número n inteiro qualquer e mostre na tela os primeiros
 # elementos de uma Sequência de fibonacci.
 
 print('=-' *20)
