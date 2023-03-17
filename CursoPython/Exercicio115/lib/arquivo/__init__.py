@@ -21,7 +21,7 @@ def criarArquivo(nome):
         print(f'Arquivo {nome} criado com sucesso!')
 
 
-def lerArquivo(nome, cabecario=None):
+def lerArquivo(nome):
     try:
         a = open(nome, 'rt')
     except:
@@ -30,7 +30,7 @@ def lerArquivo(nome, cabecario=None):
         cabecario('PESSOAS CADASTRADAS')
         for linha in a:
             dado = linha.split(';')
-            dado[1] = dado[1].replace('n', '')
+            dado[1] = dado[1].replace('\n', '')
             print(f'{dado[0]:<30}{dado[1]:>3} anos')
     finally:
         a.close()
