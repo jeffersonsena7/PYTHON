@@ -1,0 +1,15 @@
+from pessoa import Pessoa
+
+p1 = Pessoa('jefferson', 33)
+p1.comer('morango')
+p1.falar('JavaScrip')
+p1.parar_comer()
+p1.falar('JavaScript')
+p1.falar('POO')
+p1.parar_falar()
+p1.comer('banana')
+p1.falar('POO')
+p1.parar_comer()
+p1.falar('MYSQL')
+p1.parar_falar()
+p1.parar_falar()
